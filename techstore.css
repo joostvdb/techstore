@@ -1,12 +1,164 @@
 header {background-color: lightsteelblue;color: white;
+    padding: 20px 10px;
 }
-footer {background-color: lightsteelblue;color: white;}
+footer {background-color: lightsteelblue;color: white;
+padding: 20px 10px;
+}
 html {
     background-color: lightgray;
 
 }
+
+a { 
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: royalblue;
+}
+
+p:first-of-type {
+    color: sienna;
+}
+.button:last-of-type {
+    background: steelblue;
+    color: thistle;
+    
+}
+.button:last-of-type:hover {
+    color: whitesmoke
+}
+
 body { background-color: white;
     max-width: 1000px;
     margin: 0 auto;
+    font-family: 'raleway',sans-serif;
+    color: darkslategrey;
 
+}
+
+main {
+    width: 680px;
+    display: inline-block;
+    max-height: fit-content;
+    padding: 10px;
+}
+
+aside {
+    width: 260px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    position: sticky;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'indie flower', cursive;
+}
+
+.product {
+    box-sizing: border-box;
+    border: 1px solid grey ;
+    width: 210px;
+    margin: 5px;
+    padding: 5px ;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+
+    
+}
+
+
+img {max-width: 100%;
+    max-height:100px;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none inside; 
+    line-height: 30px;
+}
+
+header li {
+    display: inline;
+
+}
+header h1,nav {
+    display: inline-block;
+}
+header h1 {
+    width: 60%;
+}
+
+.navigation {
+    position: relative 300px;
+}
+
+.button {
+    padding: 10px;
+    display: inline-block;
+}
+
+/* product detail page */
+
+.product-detail {
+    width: 660px;
+    text-align: left;
+}
+.product-detail img {
+    width: 50%;
+    max-height: 100%;
+    float: left;
+    padding: 10px;
+
+}
+
+/* contact form style */
+
+form {
+    padding: 10px;
+    margin: 10px 0;
+    width: 600px;
+}
+.inline label {
+    display: inline-block;
+    width: 100px;
+    
+}
+input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    width: 400px;
+}
+
+form > div {
+    margin: 10px 0;
+}
+
+/* table */
+
+table {
+    width: 400px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+caption {
+    font-weight: bold;
+    border-bottom:1px dotted ;
+    padding: 10px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:hover {
+    background: lightyellow;
 }
