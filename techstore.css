@@ -1,0 +1,12 @@
+header {background-color: lightsteelblue;color: white;
+}
+footer {background-color: lightsteelblue;color: white;}
+html {
+    background-color: lightgray;
+
+}
+body { background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
