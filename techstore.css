@@ -110,7 +110,6 @@ header h1 {
 .button {
     padding: 10px;
     display: inline-block;
-    align-content: bottom;
 }
 
 .button:first-of-type {
