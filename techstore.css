@@ -43,7 +43,11 @@ main {
     display: inline-block;
     max-height: fit-content;
     padding: 10px;
+
 }
+
+
+
 
 aside {
     width: 260px;
@@ -61,11 +65,13 @@ h1,h2,h3,h4 {
     box-sizing: border-box;
     border: 1px solid grey ;
     width: 210px;
+    height: 324px;
     margin: 5px;
     padding: 5px ;
     display: inline-block;
     vertical-align: top;
     text-align: center;
+    
 
     
 }
@@ -104,8 +110,12 @@ header h1 {
 .button {
     padding: 10px;
     display: inline-block;
+    align-content: bottom;
 }
 
+.button:first-of-type {
+    padding-left: 0;
+}
 /* product detail page */
 
 .product-detail {
